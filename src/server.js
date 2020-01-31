@@ -1,3 +1,11 @@
+// Require external mongoose modules
+const mongoose = require('mongoose')
+
+// Connect to DB
+mongoose.connect("mongodb://localhost/mycargarage")
+    .then(() => console.log("MongoDB connected…"))
+    .catch(err => console.log(err))
+
 // Require the fastify framework and instantiate it
 const fastify = require('fastify')({ logger: true })
 
@@ -16,5 +24,4 @@ const start = async () => {
         process.exit(1)
     }
 }
-
 start()
