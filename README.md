@@ -3,12 +3,16 @@ My attempt at improving my API building abilities using fastify to decrease over
 
 ## Setting up
 
-// Creating package.json
-1. npm init -y
+### Creating package.json
 
-// Installing Dependencies
-2. npm i nodemon mongoose fastify-swagger boom
-3. npm install fastify
+1. `npm init -y`
 
-// Run Server at port:3000
-4. npm start
+### Installing Dependencies
+
+2. `npm i nodemon mongoose fastify-swagger boom`
+
+3. `npm install fastify`
+
+### Run Server at port:3000
+ 
+4. `npm start`
